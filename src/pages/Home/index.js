@@ -29,7 +29,7 @@ class Home extends Component {
       <SafeAreaView style={styles.container}>
         <Header />
         {this.state.data.map((item, index) => (
-          <Card key={index} title={item.name} description={item.description} />
+          <Card key={index} title={item.name} />
         ))}
       </SafeAreaView>
     );
